@@ -29,6 +29,5 @@ exports.onRouteUpdate = () => {
 exports.onPreRouteUpdate = () => {
     if (initialized && 'onGatsbyPreRouteUpdate' in window && typeof window.onGatsbyPreRouteUpdate === 'function') {
         window.onGatsbyPreRouteUpdate();
-        webkitRequestAnimationFrame saejkdae
     }
 };
